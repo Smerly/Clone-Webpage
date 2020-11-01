@@ -5,24 +5,107 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="bootstrap.min.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
+
   <body>
-    <nav class="navbar navbar-expand navbar-light bg-light">
+    <!-- Navbar 1-->
+    <nav
+      class="d-flex justify-content-start navbar navbar-expand navbar-light bg-light"
+    >
       <a class="navbar-brand" href="#"
-        ><img src="Webtoon_logo.png" class="img-responsive" />
+        ><img src="Webtoon_logo.png" class="img-responsive webtoon_logo" />
       </a>
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#"
-          >Home <span class="sr-only">(current)</span></a
-        >
-
-        <a class="nav-item nav-link" href="#">Features</a>
-        <a class="nav-item nav-link" href="#">Pricing</a>
+        <a class="nav-item nav-link text-dark" href="#">ORIGINALS</a>
+        <a class="nav-item nav-link text-dark" href="#">GENRES</a>
+        <a class="nav-item nav-link text-dark" href="#">POPULAR</a>
+        <a class="nav-item nav-link text-dark" href="#">CANVAS</a>
       </div>
     </nav>
+    <!-- Hero -->
+    <div class="jumbotron hero-background-img">
+      <div class="d-flex flex-row">
+        <a href="">
+          <img
+            src="https://webtoon-phinf.pstatic.net/20201101_228/1604206722099y4Op6_PNG/4NoSleepNovember_desktopbanner.png"
+            class="h-100 w-auto"
+        /></a>
+        <div class="flex-column">
+          <a href="">
+            <img
+              src="https://webtoon-phinf.pstatic.net/20200903_37/1599081779176H248s_PNG/PC_Homepage_topbanner.png"
+              class="h-50 w-auto"
+          /></a>
+          <a href="">
+            <img
+              src="https://webtoon-phinf.pstatic.net/20200903_121/1599082093891KttBM_PNG/PC_bottom_180524_eng.png"
+              class="h-50 w-auto"
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navbar 2-->
+    <nav
+      class="navbar navbar-expand navbar-light bg-light d-flex justify-content-around"
+    >
+      <div class="d-flex navbar-nav">
+        <div class="d-flex m-100">
+          <a class="d-flex m-100 nav-item nav-link text-dark" href="#">Mon</a>
+        </div>
+        <a class="nav-item nav-link text-dark" href="#">Tue</a>
+        <div class="d-flex m-100">
+          <a class="nav-item nav-link text-dark" href="#">Wed</a>
+        </div>
+        <div class="d-flex m-100">
+          <a class="nav-item nav-link text-dark" href="#">Thu</a>
+        </div>
+        <div class="d-flex m-100">
+          <a class="nav-item nav-link text-dark" href="#">Fri</a>
+        </div>
+        <div class="d-flex m-100">
+          <a class="nav-item nav-link text-dark" href="#">Sat</a>
+        </div>
+        <div class="d-flex m-100">
+          <a class="nav-item nav-link text-dark" href="#">Sun</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Cards 1-->
+    <div class="container">
+      <div class="row mt-5 justify-content-center">
+        <div class="card card-custom mx-2 mb-3">
+          <img src="" class="card-img" />
+        </div>
+        <div class="card card-custom mx-2 mb-3">
+          <img
+            src="/images/Screen Shot 2020-10-28 at 12.00.45 PM.png"
+            class="card-img h-20"
+            style=""
+          />
+        </div>
+        <div class="card card-custom mx-2 mb-3 column">
+          <img src="/images/2.png" class="card-img img-fluid" />
+        </div>
+        <div class="card card-custom mx-2 mb-3">
+          <img src="/images/3.png" class="card-img img-fluid" />
+        </div>
+        <div class="card card-custom mx-2 mb-3">
+          <h5>Fun</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe,
+            accusantium, rem. Accusantium ea impedit, totam! Laudantium ipsum
+            molestiae optio, nihil repellendus, eum ab deserunt expedita. Saepe
+            vitae sint, provident minima?
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
