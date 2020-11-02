@@ -53,3 +53,19 @@ body {
   border: 1px rgb(201, 201, 201) solid;
   border-top: 0px;
 }
+
+.column-section {
+  border: 1px rgb(201, 201, 201) solid;
+  border-top: 0px;
+}
+
+.longbox {
+  width: 700px;
+  height: 135px;
+}
+
+.col-custom {
+  border-top: 1px rgb(201, 201, 201) solid;
+  width: 525px;
+  height: 100px;
+}
